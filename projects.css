@@ -1,0 +1,43 @@
+:root{
+    --project_bg: #F5F5F5;
+}
+
+
+.projects_wrap{
+    width: 1200px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    background-color: var(--project_bg);
+}
+.card_projects{
+    width: 320px;
+    height: auto;
+    border: solid 1px #B9B9B9;
+    border-radius: 16px;
+    padding: 24px;
+    padding-bottom: 24px;
+    transition: all 0.2s ease;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.card_projects:hover{
+    -webkit-box-shadow: 26px 15px 131px -78px rgba(122,122,122,0.59);
+    -moz-box-shadow: 26px 15px 131px -78px rgba(122,122,122,0.59);
+    box-shadow: 26px 15px 131px -78px rgba(122,122,122,0.59);
+}
+.p_projects{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #39545E;
+}
+.projects_card_title{
+    font-size: 32px;
+    line-height: 100%;
+    color: #39545E;
+    margin-top: 32px;
+    
+}
